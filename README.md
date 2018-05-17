@@ -1,4 +1,4 @@
-##Exercício: sistema de vendas 
+## Exercício: sistema de vendas 
 
 ### Definição do projeto
 Tomando por base o sistema de Vendas proposto nos exercícios anteriores, considere que será necessário manter uma espécie de banco de dados em memória para Clientes, Vendedores, Produtos e Vendas realizadas.
@@ -6,18 +6,18 @@ Tomando por base o sistema de Vendas proposto nos exercícios anteriores, consid
 Dessa forma, ao executar seu programa, o usuário deverá ser apresentado a um menu de opções, como por exemplo:
 
 ```
-----------------------------
------ SISTEMA DE VENDAS ----
-----------------------------
-(1) Cadastrar Cliente
-(2) Listar Clientes
-(3) Cadastrar Vendedor
-(4) Listar Vendedores
-(5) Cadastrar Produto
-(6) Listar Produtos
-(7) Registrar Venda
-(8) Relatório de Vendas
-----------------------------
+    ----------------------------
+    ----- SISTEMA DE VENDAS ----
+    ----------------------------
+    (1) Cadastrar Cliente
+    (2) Listar Clientes
+    (3) Cadastrar Vendedor
+    (4) Listar Vendedores
+    (5) Cadastrar Produto
+    (6) Listar Produtos
+    (7) Registrar Venda
+    (8) Relatório de Vendas
+    ----------------------------
 ```
 
 *Observações:*
