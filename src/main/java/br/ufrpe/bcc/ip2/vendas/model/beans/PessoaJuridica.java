@@ -1,4 +1,4 @@
-package br.ufrpe.bcc.ip2.vendas.model;
+package br.ufrpe.bcc.ip2.vendas.model.beans;
 
 public class PessoaJuridica extends Pessoa {
     private String cnpj;

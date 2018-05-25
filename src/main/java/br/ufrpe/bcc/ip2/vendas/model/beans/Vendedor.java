@@ -1,4 +1,4 @@
-package br.ufrpe.bcc.ip2.vendas.model;
+package br.ufrpe.bcc.ip2.vendas.model.beans;
 
 import br.ufrpe.bcc.ip2.vendas.Util;
 
@@ -56,4 +56,5 @@ public class Vendedor extends PessoaFisica {
     public void setDataContratacao(String dataAniversario) {
         this.dataContratacao = Util.parseDate(dataAniversario);
     }
+
 }

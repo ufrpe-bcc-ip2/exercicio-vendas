@@ -1,11 +1,11 @@
-package br.ufrpe.bcc.ip2.vendas.model;
+package br.ufrpe.bcc.ip2.vendas.model.beans;
 
 public class Produto {
     private String nome;
     private double preco;
     private double peso;
     private int estoqueMinimo;
-    private int estoqueAtual=0;
+    private int estoqueAtual = 0;
 
     @Override
     public String toString() {
@@ -57,11 +57,19 @@ public class Produto {
         this.peso = peso;
     }
 
-    public int getEstoqueMinimo() {  return estoqueMinimo;  }
+    public int getEstoqueMinimo() {
+        return estoqueMinimo;
+    }
 
-    public void setEstoqueMinimo(int estoqueMinimo) {    this.estoqueMinimo = estoqueMinimo;   }
+    public void setEstoqueMinimo(int estoqueMinimo) {
+        this.estoqueMinimo = estoqueMinimo;
+    }
 
-    public int getEstoqueAtual() {     return estoqueAtual;   }
+    public int getEstoqueAtual() {
+        return estoqueAtual;
+    }
 
-    public void setEstoqueAtual(int estoqueAtual) {     this.estoqueAtual = estoqueAtual;   }
+    public void setEstoqueAtual(int estoqueAtual) {
+        this.estoqueAtual = estoqueAtual;
+    }
 }

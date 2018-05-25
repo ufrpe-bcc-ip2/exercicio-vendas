@@ -1,8 +1,8 @@
 package br.ufrpe.bcc.ip2.vendas;
 
-import br.ufrpe.bcc.ip2.vendas.model.Cliente;
-import br.ufrpe.bcc.ip2.vendas.model.Produto;
-import br.ufrpe.bcc.ip2.vendas.model.Vendedor;
+import br.ufrpe.bcc.ip2.vendas.model.beans.Cliente;
+import br.ufrpe.bcc.ip2.vendas.model.beans.Produto;
+import br.ufrpe.bcc.ip2.vendas.model.beans.Vendedor;
 
 public class App {
     public static void main(String[] args) {

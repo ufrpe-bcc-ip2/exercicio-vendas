@@ -1,4 +1,4 @@
-package br.ufrpe.bcc.ip2.vendas.model;
+package br.ufrpe.bcc.ip2.vendas.model.beans;
 
 import br.ufrpe.bcc.ip2.vendas.Util;
 

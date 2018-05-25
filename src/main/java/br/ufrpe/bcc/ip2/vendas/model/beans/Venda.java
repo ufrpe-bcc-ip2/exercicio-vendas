@@ -1,7 +1,6 @@
-package br.ufrpe.bcc.ip2.vendas.model;
+package br.ufrpe.bcc.ip2.vendas.model.beans;
 
 import java.util.Date;
-import java.util.Objects;
 
 public class Venda {
     private Date dataVenda;
@@ -77,7 +76,11 @@ public class Venda {
         this.cliente = cliente;
     }
 
-    public Vendedor getVendedor() { return vendedor; }
+    public Vendedor getVendedor() {
+        return vendedor;
+    }
 
-    public void setVendedor(Vendedor vendedor) { this.vendedor = vendedor;  }
+    public void setVendedor(Vendedor vendedor) {
+        this.vendedor = vendedor;
+    }
 }
